@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Rull, Brent Harvey B.</h1>
+    </div>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero">
+            <h1>What is data and how can you interpret it?</h1>
+            <p>Data is a collection of facts, figures, measurements, and observations used <br>for analysis,
+                reference, or decision-making. It can take many forms and be derived <br> from various sources.
+                Charts and graphs are visual tools that help in understanding <br>and interpreting data by
+                highlighting patterns, trends, and relationships.</p>
+            <button onclick="scrollToTable()" class="animated-button">
+                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                    </path>
+                </svg>
+                <span class="text">Check Data</span>
+                <span class="circle"></span>
+                <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                    </path>
+                </svg>
+            </button>
+        </div>
+        <div class="hero-image">
+            <img src="a.gif" alt="" autoplay loop>
+        </div>
+    </section>
+
+    <!-- navigator -->
+    <section class="navigator">
+        <div class="tab-container" id="tab-container">
+            <input type="radio" name="tab" id="tab1" class="tab tab--1" />
+            <label class="tab_label" for="tab1">Table</label>
+            <input type="radio" name="tab" id="tab2" class="tab tab--2" />
+            <label class="tab_label" for="tab2">Area Chart</label>
+            <input type="radio" name="tab" id="tab3" class="tab tab--3" />
+            <label class="tab_label" for="tab3">Line Chart</label>
+            <input type="radio" name="tab" id="tab4" class="tab tab--4" />
+            <label class="tab_label" for="tab4">Histogram</label>
+            <div class="indicator"></div>
+        </div>
+    </section>
+    <section class="graph table-section" id="table-section">
+        <h1 data-aos="fade-right" data-aos-duration="100">Table</h1>
+        <img src="table.png" alt="" data-aos="fade-right" data-aos-delay="200">
+        <p data-aos="fade-right" data-aos-delay="300">In data interpretation, a <strong
+                class="emphasized-text">table</strong> is a structured format used to
+            organize and present data in rows and columns,
+            facilitating easy comparison and analysis.
+            <br>Each table includes a title, headers, rows, columns, and cells. For example, a table displaying annual
+            sales
+            and profit data might have columns for the year, <br>sales, and profit, with each row representing data for
+            a
+            specific year. Tables help in identifying trends, patterns, and anomalies by organizing large amounts <br>of
+            data in
+            a clear, concise manner. Essential for effective data analysis and presentation, tables ensure information
+            is
+            accessible, accurate, and easy to <br>interpret.
+        </p>
+    </section>
+    <!-- area chart -->
+
+    <section class="areachart-section" id="areachart-section">
+        <div class="area-image">
+            <h1 data-aos="fade-right" data-aos-duration="100">Area Chart</h1>
+            <img src="Area-Chart.png" alt="" data-aos="fade-up" data-aos-delay="200">
+        </div>
+        <div class="area-text">
+            <p data-aos="fade-up" data-aos-delay="300">An <strong class="emphasized-text">Area Chart</strong> in data
+                interpretation is a graphical representation
+                that displays data<br> over time or categories, emphasizing the cumulative magnitude of values. Similar
+                to a
+                line <br>chart, an area chart plots data points on a two-dimensional plane, with the area between<br>
+                the data
+                line
+                and the axis filled with color or shading. This visualizes the trend and<br> magnitude of data more
+                intuitively,
+                making it effective for illustrating changes and patterns <br>over time or across categories. Area
+                charts
+                are commonly used in analyzing trends, <br>comparing data sets, and identifying fluctuations in data
+                values,
+                providing insights into <br>cumulative data trends with visual clarity.
+            </p>
+        </div>
+    </section>
+
+    <!-- line chart -->
+    <section class="linegraph-section" id="linegraph-section">
+        <div class="line-text">
+            <p data-aos="fade-right" data-aos-delay="300">A <strong class="emphasized-text">Line Chart</strong> in data
+                interpretation is a graphical
+                representation that displays data trends over time or categories through connected data points. Each
+                data point <br>represents a value, and lines connect these points to illustrate the progression or<br>
+                change of
+                the data. Line charts are versatile tools, effectively portraying trends, <br>patterns, and
+                relationships
+                within data sets. They're commonly used in various <br>fields for trend analysis, forecasting, and
+                comparison of multiple data series. <br>Line charts facilitate easy interpretation of data trends,
+                helping
+                analysts and<br> decision-makers make informed decisions based on visualized patterns and
+                <br>fluctuations
+                in
+                data values.
+            </p>
+        </div>
+        <div class="line-image">
+            <h1 data-aos="fade-right" data-aos-duration="100">Line Chart</h1>
+            <img src="line-chart.png" alt="" data-aos="fade-right" data-aos-delay="200">
+        </div>
+    </section>
+
+    <!-- histogram -->
+    <section class="histogram-section" id="histogram-section">
+        <div class="histogram-image">
+            <h1 data-aos="fade-right" data-aos-duration="100">Histogram</h1>
+            <img src="column.png" alt="" data-aos="fade-up" data-aos-delay="200">
+        </div>
+        <div class="histogram-text">
+            <p data-aos="fade-up" data-aos-delay="300">A <strong class="emphasized-text">histogram </strong>in data
+                interpretation is a graphical representation
+                illustrating the distribution of numerical data. <br>It consists of bars where the height of each bar
+                represents the frequency of occurrence of data within specific <br>intervals or bins. Histograms provide
+                insights into the shape, center, spread, and skewness of data, aiding in <br>identifying patterns,
+                outliers,
+                and underlying distributions. They are particularly useful for exploring data <br>characteristics, such
+                as
+                identifying common values, detecting outliers, and assessing data variability. Histograms <br>are
+                commonly
+                used in fields like statistics, data analysis, and quality control to understand and interpret <br>data
+                distributions effectively.
+            </p>
+        </div>
+    </section>
+    <button onclick="topFunction()" class="pageReset" id="backToTopBtn" title="Go to top"><span
+            class="material-symbols-outlined">
+            stat_1
+        </span></button>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            const tabContainer = document.querySelector('.tab-container');
+            if (window.scrollY >= 1050) {
+                tabContainer.classList.add('scrolled');
+            } else {
+                tabContainer.classList.remove('scrolled');
+            }
+        });
+
+        function scrollToTable() {
+            var tableSection = document.getElementById("table-section");
+            tableSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        var tab1 = document.getElementById('tab1');
+        var tab2 = document.getElementById('tab2');
+        var tab3 = document.getElementById('tab3');
+        var tab4 = document.getElementById('tab4');
+
+        // Get references to the sections
+        var tableSection = document.getElementById('table-section');
+        var areaChartSection = document.getElementById('areachart-section');
+        var lineChartSection = document.getElementById('linegraph-section');
+        var histogramSection = document.getElementById('histogram-section');
+
+        // Add event listeners to each radio button
+        tab1.addEventListener('click', function () {
+            tableSection.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        tab2.addEventListener('click', function () {
+            areaChartSection.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        tab3.addEventListener('click', function () {
+            lineChartSection.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        tab4.addEventListener('click', function () {
+            histogramSection.scrollIntoView({ behavior: 'smooth' });
+        });
+
+
+        let backToTopBtn = document.getElementById("backToTopBtn");
+        window.onscroll = function () {
+            scrollFunction();
+            behavior: 'smooth';
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {//display button at what partt
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.documentElement.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+    </script>
+
+
+</body>
+
+</html>
